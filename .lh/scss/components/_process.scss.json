@@ -1,0 +1,54 @@
+{
+    "sourceFile": "scss/components/_process.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 9,
+            "patches": [
+                {
+                    "date": 1668209057024,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1668209063182,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,8 +67,9 @@\n          }\n       }\n    }\n    .button  {\n+      margin-left: ;\n       margin-top: rem(50px);\n    }\n }\n \n"
+                },
+                {
+                    "date": 1668209069379,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,9 +67,10 @@\n          }\n       }\n    }\n    .button  {\n-      margin-left: ;\n+      margin-left: auto;\n+      margin-right: auto;\n       margin-top: rem(50px);\n    }\n }\n \n"
+                },
+                {
+                    "date": 1668209077853,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,8 +67,9 @@\n          }\n       }\n    }\n    .button  {\n+      display: block;\n       margin-left: auto;\n       margin-right: auto;\n       margin-top: rem(50px);\n    }\n"
+                },
+                {
+                    "date": 1668209086491,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,9 +70,9 @@\n    .button  {\n       display: block;\n       margin-left: auto;\n       margin-right: auto;\n-      margin-top: rem(50px);\n+      margin: rem(50px);\n    }\n }\n \n \n"
+                },
+                {
+                    "date": 1668209092845,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,9 +70,9 @@\n    .button  {\n       display: block;\n       margin-left: auto;\n       margin-right: auto;\n-      margin: rem(50px);\n+      margin: rem(50px) 0 auto;\n    }\n }\n \n \n"
+                },
+                {
+                    "date": 1668209103250,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,11 +68,9 @@\n       }\n    }\n    .button  {\n       display: block;\n-      margin-left: auto;\n-      margin-right: auto;\n-      margin: rem(50px) 0 auto;\n+      margin: rem(50px) auto;\n    }\n }\n \n \n"
+                },
+                {
+                    "date": 1670018089573,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,5 @@\n .process {\n-   &__list {\n       display: flex;\n       align-items: center;\n       justify-content: center;\n       margin-top: rem(32px);\n@@ -68,9 +67,9 @@\n       }\n    }\n    .button  {\n       display: block;\n-      margin: rem(50px) auto;\n+      margin: rem(50px) auto 0;\n    }\n }\n \n \n"
+                },
+                {
+                    "date": 1670018112392,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,22 +1,21 @@\n .process {\n-      display: flex;\n-      align-items: center;\n-      justify-content: center;\n-      margin-top: rem(32px);\n-      &_one {\n-         order: 1;\n-      }\n-      &_two {\n-         order: 4;\n-      }\n-      &_three {\n-         order: 2;\n-      }\n-      &_four {\n-         order: 3;\n-      }\n+   display: flex;\n+   align-items: center;\n+   justify-content: center;\n+   margin-top: rem(32px);\n+   &_one {\n+      order: 1;\n    }\n+   &_two {\n+      order: 4;\n+   }\n+   &_three {\n+      order: 2;\n+   }\n+   &_four {\n+      order: 3;\n+   }\n    &__icon {\n       margin: 0 rem(16px) 0 0;\n       &_one {\n          order: 2;\n@@ -65,12 +64,12 @@\n             right: rem(21px);\n          }\n       }\n    }\n-   .button  {\n-      display: block;\n-      margin: rem(50px) auto 0;\n-   }\n+   // .button  {\n+   //    display: block;\n+   //    margin: rem(50px) auto 0;\n+   // }\n }\n \n \n @media screen and (min-width:992px) {\n"
+                },
+                {
+                    "date": 1670018119103,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -73,11 +73,9 @@\n \n \n @media screen and (min-width:992px) {\n    .process {\n-      &__list {\n-         order: 0;\n-      }\n+      order: 0;\n       &__icon {\n          margin: 0 rem(16px) 0 0;\n          &_one {\n             order: 2;\n"
+                }
+            ],
+            "date": 1668209057024,
+            "name": "Commit-0",
+            "content": ".process {\n   &__list {\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      margin-top: rem(32px);\n      &_one {\n         order: 1;\n      }\n      &_two {\n         order: 4;\n      }\n      &_three {\n         order: 2;\n      }\n      &_four {\n         order: 3;\n      }\n   }\n   &__icon {\n      margin: 0 rem(16px) 0 0;\n      &_one {\n         order: 2;\n         margin: 0 0 0 rem(16px);\n      }\n   }\n   &__text-bg {\n      background-color: var(--color-white);\n      padding: rem(12px) rem(16px);\n      border-radius: 20px;\n      box-shadow: 0px 2px 8px rgba(86, 117, 146, 0.1);\n      text-align: center;\n      font-weight: 500;\n      &_one ,&_three , &_four , &_two {\n         position: relative;\n         &::after , &::before  {\n            content: \"\";\n            position: absolute;\n            background-color: var(--color-white);\n            border-radius: 100%;\n         }\n         &::after {\n            bottom: rem(-7px);\n            width: rem(17px);\n            height: rem(17px);\n         }\n         &::before {\n            bottom: rem(-16px);\n            width: rem(9px);\n            height: rem(9px);\n         }\n      }\n      &_one , &_four  {\n         &::after {\n            left: rem(32px);\n         }\n         &::before {\n            left: rem(21px) ;\n         }\n      }\n       &_three , &_two {\n         &::after {\n            right: rem(32px);\n         }\n         &::before {\n            right: rem(21px);\n         }\n      }\n   }\n   .button  {\n      margin-top: rem(50px);\n   }\n}\n\n\n@media screen and (min-width:992px) {\n   .process {\n      &__list {\n         order: 0;\n      }\n      &__icon {\n         margin: 0 rem(16px) 0 0;\n         &_one {\n            order: 2;\n            margin: 0 0 0 rem(16px);\n         }\n      }\n   }\n}"
+        }
+    ]
+}

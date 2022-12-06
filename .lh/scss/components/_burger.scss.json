@@ -1,0 +1,26 @@
+{
+    "sourceFile": "scss/components/_burger.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1670354435002,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1670354441609,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n    height: 20px;\n    width: 25px;\n    z-index: 2;\n    position: relative;\n-   margin-right: ;\n+   margin-left: rem(32px);\n    span {\n       position: absolute;\n       background-color: var(--color-bg-black);\n       left: 0;\n"
+                },
+                {
+                    "date": 1670354457650,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n    height: 20px;\n    width: 25px;\n    z-index: 2;\n    position: relative;\n-   margin-left: rem(32px);\n+   margin-left: rem(24px);\n    span {\n       position: absolute;\n       background-color: var(--color-bg-black);\n       left: 0;\n"
+                }
+            ],
+            "date": 1670354435002,
+            "name": "Commit-0",
+            "content": ".burger {\n   display: block;\n   height: 20px;\n   width: 25px;\n   z-index: 2;\n   position: relative;\n   margin-right: ;\n   span {\n      position: absolute;\n      background-color: var(--color-bg-black);\n      left: 0;\n      width: 100%;\n      height: 0.166rem;\n      top: 8px;\n      border-radius: 5.555rem;\n      transition: all 0.3s;\n   }\n   &::before,&::after {\n      content: '';\n      position: absolute;\n      background-color: var(--color-bg-black);\n      width: 100%;\n      height: 3px;\n      left: 0;\n      border-radius: 5.555rem;\n   }\n   &::before {\n      top: 0;\n      transition: all 1s;\n   }\n   &::after {\n      bottom: 1px;\n      transition: all 1s;\n   }\n   &.active::before {\n      transform: rotate(-45deg);\n      transition: all 1s;\n      top: 8px;\n   }\n   &.active span {\n      transform: scaleX(0);\n      transition: all 0.3s ;\n   }\n   &.active::after {\n      transform: rotate(45deg);\n      transition: all 1s;\n      bottom: 9px;\n   }\n}\n\n@media screen and (min-width:992px){\n   .burger { \n      display: none;\n   }\n}"
+        }
+    ]
+}

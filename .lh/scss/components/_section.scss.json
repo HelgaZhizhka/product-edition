@@ -1,0 +1,106 @@
+{
+    "sourceFile": "scss/components/_section.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 22,
+            "patches": [
+                {
+                    "date": 1668534158795,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1668534168293,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n          margin-bottom: rem(32px);\n       }\n    }\n    &_content{\n-      margin-top: 0;\n+      padding-top: 0;\n       .title {\n          text-align: center;\n       }\n    }\n"
+                },
+                {
+                    "date": 1668534175005,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n          margin-bottom: rem(32px);\n       }\n    }\n    &_content{\n-      padding-top: 0;\n+      padding-top: 30px;\n       .title {\n          text-align: center;\n       }\n    }\n"
+                },
+                {
+                    "date": 1668534200746,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -69,9 +69,9 @@\n          border-radius: 50% 50% 0 0;\n       }\n    }\n    &_company {\n-      margin-bottom: rem(60px);\n+      padding-bottom: rem(60px);\n       .company {\n          margin-top: rem(80px);\n       }\n       .company__img {\n"
+                },
+                {
+                    "date": 1668534209563,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -86,9 +86,9 @@\n          margin-bottom: rem(65px);\n       }\n    }\n    &_map {\n-      margin-bottom: rem(50px);\n+      padding-bottom: rem(50px);\n    }\n }\n \n [data-theme=\"light\"] {\n"
+                },
+                {
+                    "date": 1668534220118,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -152,9 +152,9 @@\n }\n \n @media screen and (min-width:992px) {\n    .section {\n-      margin-bottom: rem(150px);\n+      padding-bottom: rem(150px);\n       &_content{\n          margin-top: 0;\n          margin-bottom: rem(115px);\n       }\n"
+                },
+                {
+                    "date": 1668534227387,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -154,9 +154,9 @@\n @media screen and (min-width:992px) {\n    .section {\n       padding-bottom: rem(150px);\n       &_content{\n-         margin-top: 0;\n+         padding-top: 0;\n          margin-bottom: rem(115px);\n       }\n       &_bg-t , &_bg-b {\n          &::after {\n"
+                },
+                {
+                    "date": 1668534238753,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -154,10 +154,10 @@\n @media screen and (min-width:992px) {\n    .section {\n       padding-bottom: rem(150px);\n       &_content{\n-         padding-top: 0;\n-         margin-bottom: rem(115px);\n+         padding-top:25px;\n+         padding-bottom: rem(115px);\n       }\n       &_bg-t , &_bg-b {\n          &::after {\n             width: 150%;\n"
+                },
+                {
+                    "date": 1668534245189,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -163,8 +163,8 @@\n             width: 150%;\n          }\n       }\n       &_map {\n-         margin-bottom: rem(50px);\n+         padding-bottom: rem(50px);\n       }\n    }\n }\n"
+                },
+                {
+                    "date": 1670016476955,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,8 +34,9 @@\n       }\n       .for-you {\n          @extend .m-b;\n       }\n+      .butto\n    }\n    &_stories {\n       .strategies {\n          @extend .m-b;\n"
+                },
+                {
+                    "date": 1670016482537,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,11 @@\n       }\n       .for-you {\n          @extend .m-b;\n       }\n-      .butto\n+      .button_primary {\n+         \n+      }\n    }\n    &_stories {\n       .strategies {\n          @extend .m-b;\n"
+                },
+                {
+                    "date": 1670016490222,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,10 @@\n       .for-you {\n          @extend .m-b;\n       }\n       .button_primary {\n-         \n+         display: block;\n+         margin: auto;\n       }\n    }\n    &_stories {\n       .strategies {\n"
+                },
+                {
+                    "date": 1670016662159,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -157,8 +157,11 @@\n \n @media screen and (min-width:992px) {\n    .section {\n       padding-bottom: rem(150px);\n+      bg-b {\n+    padding-bottom: 2.5rem;\n+}\n       &_content{\n          padding-top:25px;\n          padding-bottom: rem(115px);\n       }\n"
+                },
+                {
+                    "date": 1670016670126,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -158,10 +158,10 @@\n @media screen and (min-width:992px) {\n    .section {\n       padding-bottom: rem(150px);\n       bg-b {\n-    padding-bottom: 2.5rem;\n-}\n+         padding-bottom: rem(150px);\n+      }\n       &_content{\n          padding-top:25px;\n          padding-bottom: rem(115px);\n       }\n"
+                },
+                {
+                    "date": 1670016683426,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -157,10 +157,10 @@\n \n @media screen and (min-width:992px) {\n    .section {\n       padding-bottom: rem(150px);\n-      bg-b {\n-         padding-bottom: rem(150px);\n+      &.bg-b {\n+         margin-bottom: rem(150px);\n       }\n       &_content{\n          padding-top:25px;\n          padding-bottom: rem(115px);\n"
+                },
+                {
+                    "date": 1670016785856,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,8 +62,9 @@\n       }\n    }\n    &_bg-b {\n       padding-bottom: rem(40px);\n+       margin-bottom: rem(150px);\n       &::after {\n          border-radius:  0 0 50% 50%;\n       }\n    }\n@@ -157,9 +158,9 @@\n \n @media screen and (min-width:992px) {\n    .section {\n       padding-bottom: rem(150px);\n-      &.bg-b {\n+      &_bg-b {\n          margin-bottom: rem(150px);\n       }\n       &_content{\n          padding-top:25px;\n"
+                },
+                {
+                    "date": 1670017497757,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,9 +62,9 @@\n       }\n    }\n    &_bg-b {\n       padding-bottom: rem(40px);\n-       margin-bottom: rem(150px);\n+      margin-bottom: rem(40px);\n       &::after {\n          border-radius:  0 0 50% 50%;\n       }\n    }\n@@ -93,9 +93,13 @@\n    }\n    &_map {\n       padding-bottom: rem(50px);\n    }\n+   [class*=\"order-\"] > img {\n+  display: block;\n+  margin: 0 0 0 auto;\n }\n+}\n \n [data-theme=\"light\"] {\n    .section_bg-b {\n       &::after {\n"
+                },
+                {
+                    "date": 1670017504247,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -94,12 +94,12 @@\n    &_map {\n       padding-bottom: rem(50px);\n    }\n    [class*=\"order-\"] > img {\n-  display: block;\n-  margin: 0 0 0 auto;\n+      display: block;\n+      margin: 0 0 0 auto;\n+   }\n }\n-}\n \n [data-theme=\"light\"] {\n    .section_bg-b {\n       &::after {\n"
+                },
+                {
+                    "date": 1670018015061,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,8 +39,9 @@\n          display: block;\n          margin: auto;\n       }\n    }\n+   &_for-you, &_\n    &_stories {\n       .strategies {\n          @extend .m-b;\n       }\n"
+                },
+                {
+                    "date": 1670018020434,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,14 @@\n          display: block;\n          margin: auto;\n       }\n    }\n-   &_for-you, &_\n+   &_for-you, &_process {\n+      .button_primary {\n+         display: block;\n+         margin: auto;\n+      }\n+   }\n    &_stories {\n       .strategies {\n          @extend .m-b;\n       }\n"
+                },
+                {
+                    "date": 1670018190128,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,14 +34,16 @@\n       }\n       .for-you {\n          @extend .m-b;\n       }\n+   }\n+   &_for-you, &_process {\n       .button_primary {\n          display: block;\n          margin: auto;\n       }\n    }\n-   &_for-you, &_process {\n+    &_process {\n       .button_primary {\n          display: block;\n          margin: auto;\n       }\n"
+                },
+                {
+                    "date": 1670018222753,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,10 +43,9 @@\n       }\n    }\n     &_process {\n       .button_primary {\n-         display: block;\n-         margin: auto;\n+         margin-top: auto;\n       }\n    }\n    &_stories {\n       .strategies {\n"
+                },
+                {
+                    "date": 1670018230330,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n       }\n    }\n     &_process {\n       .button_primary {\n-         margin-top: auto;\n+         margin-top: rem(50px);\n       }\n    }\n    &_stories {\n       .strategies {\n"
+                }
+            ],
+            "date": 1668534158795,
+            "name": "Commit-0",
+            "content": ".section {\n   padding-bottom: rem(100px);\n   &_bg {\n      @extend .bg-light-dark;\n   }\n   &__heading {\n      text-align: center;\n      margin-bottom: rem(50px);\n      .subtitle {\n         margin-top: rem(8px);\n      }\n      .title__xs {\n         margin-bottom: rem(32px);\n      }\n   }\n   &_content{\n      margin-top: 0;\n      .title {\n         text-align: center;\n      }\n   }\n   &_info {\n      .title_xs {\n         margin-bottom: rem(8px);\n      }\n      .title_sm {\n         margin-bottom: rem(24px);\n      }\n   }\n   &_for-you {\n      &.section_bg {\n         padding-top: rem(24px);\n         padding-bottom: rem(38px);\n      }\n      .for-you {\n         @extend .m-b;\n      }\n   }\n   &_stories {\n      .strategies {\n         @extend .m-b;\n      }\n   }\n   //section for-you и process \n   &_bg-t , &_bg-b {\n      width: 100%;\n      overflow: hidden;\n      position: relative;\n      &::after {\n         content: \"\";\n         position: absolute;\n         top: 0;\n         left: 50%;\n         transform: translateX(-50%);\n         width: 270%;\n         height: 100%;\n         z-index: -1;\n      }\n   }\n   &_bg-b {\n      padding-bottom: rem(40px);\n      &::after {\n         border-radius:  0 0 50% 50%;\n      }\n   }\n   &_bg-t {\n      padding-top: rem(40px);\n      &::after {\n         border-radius: 50% 50% 0 0;\n      }\n   }\n   &_company {\n      margin-bottom: rem(60px);\n      .company {\n         margin-top: rem(80px);\n      }\n      .company__img {\n         margin-bottom: rem(60px);\n      }\n   }\n   &_ticket {\n      text-align: center;\n      padding-top: rem(35px);\n      padding-bottom: rem(45px);\n      .ticket__wrapper{\n         margin-bottom: rem(65px);\n      }\n   }\n   &_map {\n      margin-bottom: rem(50px);\n   }\n}\n\n[data-theme=\"light\"] {\n   .section_bg-b {\n      &::after {\n         background:  linear-gradient(179.59deg,rgba(255, 255, 255, 0.0001) 0.35%, #EDEDED  99.63%);\n      }\n   }\n   .section_bg-t {\n      &::after {\n         background: linear-gradient(179.59deg, #EDEDED 0.35%, rgba(255, 255, 255, 0.0001) 99.63%);\n      }\n   }\n}\n\n[data-theme=\"dark\"]  {\n   .section_bg-b{\n      &::after {\n         background: linear-gradient(179.59deg,rgba(67, 67, 67, 0.0001)  0.35%, #22343D  99.63%);\n      }\n   }\n   .section_bg-t {\n      &::after {\n         background: linear-gradient(179.59deg, #22343D 0.35%, rgba(67, 67, 67, 0.0001) 99.63%);\n      }\n   }\n}\n\n@media screen and (min-width:575px) {\n   .section {\n      &_bg-t , &_bg-b {\n         &::after {\n            width: 170%;\n         }\n      }\n   }\n}\n@media screen and (min-width:576px) {\n   .section {\n      &_ticket {\n         .ticket__wrapper{\n            margin-bottom: 0px;\n         }\n      }\n   }\n}\n\n@media screen and (min-width:768px)  {\n   .section {\n      &_strategies {\n         .section__heading {\n            text-align: left;\n         }\n      }\n      &_content {\n         .title {\n            text-align: left;\n         }\n      }\n   }\n}\n\n@media screen and (min-width:992px) {\n   .section {\n      margin-bottom: rem(150px);\n      &_content{\n         margin-top: 0;\n         margin-bottom: rem(115px);\n      }\n      &_bg-t , &_bg-b {\n         &::after {\n            width: 150%;\n         }\n      }\n      &_map {\n         margin-bottom: rem(50px);\n      }\n   }\n}\n"
+        }
+    ]
+}

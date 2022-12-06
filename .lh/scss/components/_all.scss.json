@@ -1,0 +1,42 @@
+{
+    "sourceFile": "scss/components/_all.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1670018785975,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1670020543079,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,8 @@\n @import \"history\";\n @import \"swiper\";\n @import \"business\";\n @import \"card\";\n-@import \"review\";\n @import \"title\";\n @import \"icon\";\n @import \"theme\";\n @import \"logo\";\n"
+                },
+                {
+                    "date": 1670021767351,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,9 @@\n @import \"history\";\n @import \"swiper\";\n @import \"business\";\n @import \"card\";\n+@import \"card\";\n @import \"title\";\n @import \"icon\";\n @import \"theme\";\n @import \"logo\";\n"
+                },
+                {
+                    "date": 1670350559958,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,14 +4,13 @@\n @import \"content\";\n @import \"for-You\";\n @import \"info\";\n @import \"process\";\n-@import \"strategies\";\n @import \"history\";\n @import \"swiper\";\n @import \"business\";\n @import \"card\";\n-@import \"card\";\n+@import \"rating\";\n @import \"title\";\n @import \"icon\";\n @import \"theme\";\n @import \"logo\";\n"
+                },
+                {
+                    "date": 1670352402095,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,8 +11,9 @@\n @import \"card\";\n @import \"rating\";\n @import \"title\";\n @import \"icon\";\n+\n @import \"theme\";\n @import \"logo\";\n @import \"menu\";\n @import \"burger\";\n"
+                },
+                {
+                    "date": 1670352407351,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n @import \"card\";\n @import \"rating\";\n @import \"title\";\n @import \"icon\";\n-\n+@import \"input\";\n @import \"theme\";\n @import \"logo\";\n @import \"menu\";\n @import \"burger\";\n"
+                },
+                {
+                    "date": 1670353238679,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n @import \"page\";\n @import \"header\";\n+@import \"header\";\n @import \"section\";\n @import \"content\";\n @import \"for-You\";\n @import \"info\";\n"
+                }
+            ],
+            "date": 1670018785975,
+            "name": "Commit-0",
+            "content": "@import \"page\";\n@import \"header\";\n@import \"section\";\n@import \"content\";\n@import \"for-You\";\n@import \"info\";\n@import \"process\";\n@import \"strategies\";\n@import \"history\";\n@import \"swiper\";\n@import \"business\";\n@import \"card\";\n@import \"review\";\n@import \"title\";\n@import \"icon\";\n@import \"theme\";\n@import \"logo\";\n@import \"menu\";\n@import \"burger\";\n@import \"button\";\n@import \"illustration\";\n@import \"subtitles\";\n@import \"footer\";\n@import \"social\";\n@import \"popup\";\n//Pricing\n@import \"exterprise\";\n@import \"company\";\n@import \"ticket\";\n@import \"accordion\";\n//resources\n@import \"map\";\n@import \"form\";\n\n\n"
+        }
+    ]
+}

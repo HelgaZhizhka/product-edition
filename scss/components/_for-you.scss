@@ -1,0 +1,65 @@
+.for-you {
+   text-align: center;
+   color: var(--color-text-black);
+   &__icon {
+      display: block;
+      margin: 0 auto;
+      width: rem(50px);
+      height: rem(50px);
+      border-radius: 19px;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      background-repeat: no-repeat;
+      background-position: center;
+      &:hover {
+         transform: scale(1.1);
+      }
+      &_cursor {
+         background-color: #02897A;
+         background-image: url('../images/for-You/cursor.svg');
+      }
+      &_surveys {
+         background-color: #4D8DFF;
+         background-image: url('../images/for-You/surveys.svg');
+      }
+      &_heart {
+         background-color: #740A76;
+         background-image: url('../images/for-You/heart.svg');
+      }
+      &_watch {
+         background-color: #F03E3D;
+         background-image: url('../images/for-You/watch.svg');
+      }
+   }
+   &_centered {
+      .for-you__icon_heart{
+         background-color: #F03E3D;
+      }
+   }
+   &__title {
+      font-size: rem(22px);  
+      margin-top: rem(24px);
+   }
+   &__text {
+      margin-top: rem(8px);
+   }
+   // customers 
+   &_centered {
+      padding: 32px 28px 34px 28px;
+      text-align: center;
+      @extend .border;
+      border-radius: 10px;
+      .for-you__icon {
+         margin: auto;
+      }
+   }
+}
+
+@media screen and (min-width:992px) {
+   .for-you {
+      text-align: left;
+      &__icon {
+         margin: 0;
+      }
+   }
+}
+

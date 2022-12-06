@@ -1,0 +1,50 @@
+{
+    "sourceFile": "scss/components/_for-you.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 8,
+            "patches": [
+                {
+                    "date": 1668209006539,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1668535728486,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,5 @@\n .for-you {\n-   &__item {\n       text-align: center;\n       color: var(--color-text-black);\n    }\n    &__icon {\n@@ -58,9 +57,9 @@\n    }\n }\n .for-you_b {\n    .button {\n-      t\n+      text-transform: uppercase;\n    }\n }\n \n \n"
+                },
+                {
+                    "date": 1668535751124,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,7 @@\n .for-you {\n-      text-align: center;\n-      color: var(--color-text-black);\n-   }\n+   text-align: center;\n+   color: var(--color-text-black);\n    &__icon {\n       display: block;\n       margin: 0 auto;\n       width: rem(50px);\n@@ -44,9 +43,8 @@\n       margin-top: rem(8px);\n    }\n    // customers \n    &_centered {\n-      .for-you__item {\n          padding: 32px 28px 34px 28px;\n          text-align: center;\n          @extend .border;\n          border-radius: 10px;\n"
+                },
+                {
+                    "date": 1668535763982,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,25 +43,18 @@\n       margin-top: rem(8px);\n    }\n    // customers \n    &_centered {\n-         padding: 32px 28px 34px 28px;\n-         text-align: center;\n-         @extend .border;\n-         border-radius: 10px;\n-      }\n+      padding: 32px 28px 34px 28px;\n+      text-align: center;\n+      @extend .border;\n+      border-radius: 10px;\n       .for-you__icon {\n          margin: auto;\n       }\n    }\n }\n-.for-you_b {\n-   .button {\n-      text-transform: uppercase;\n-   }\n-}\n \n-\n @media screen and (min-width:992px) {\n    .for-you {\n       &__icon {\n          margin: 0;\n"
+                },
+                {
+                    "date": 1668535770522,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,13 +55,14 @@\n }\n \n @media screen and (min-width:992px) {\n    .for-you {\n+      text-align: left;\n       &__icon {\n          margin: 0;\n       }\n       &__item {\n-         text-align: left;\n+         \n       }\n    }\n }\n \n"
+                },
+                {
+                    "date": 1670022982380,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,9 @@\n       .for-you__icon_heart{\n          background-color: #F03E3D;\n       }\n    }\n-   &__main {\n+   &__title {\n       font-size: rem(22px);  \n       margin-top: rem(24px);\n    }\n    &__text {\n@@ -59,10 +59,7 @@\n       text-align: left;\n       &__icon {\n          margin: 0;\n       }\n-      &__item {\n-         \n-      }\n    }\n }\n \n"
+                },
+                {
+                    "date": 1670360400229,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n          transform: scale(1.1);\n       }\n       &_cursor {\n          background-color: #02897A;\n-         background-image: url('../../imeges/for-You/cursor.svg');\n+         background-image: url('../imeges/for-You/cursor.svg');\n       }\n       &_surveys {\n          background-color: #4D8DFF;\n          background-image: url('../../imeges/for-You/surveys.svg');\n"
+                },
+                {
+                    "date": 1670360406596,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,13 +14,13 @@\n          transform: scale(1.1);\n       }\n       &_cursor {\n          background-color: #02897A;\n-         background-image: url('../imeges/for-You/cursor.svg');\n+         background-image: url('../images/for-You/cursor.svg');\n       }\n       &_surveys {\n          background-color: #4D8DFF;\n-         background-image: url('../../imeges/for-You/surveys.svg');\n+         background-image: url('../images/for-You/surveys.svg');\n       }\n       &_heart {\n          background-color: #740A76;\n          background-image: url('../../imeges/for-You/heart.svg');\n"
+                },
+                {
+                    "date": 1670360412218,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n          background-image: url('../images/for-You/surveys.svg');\n       }\n       &_heart {\n          background-color: #740A76;\n-         background-image: url('../../imeges/for-You/heart.svg');\n+         background-image: url('../images/for-You/heart.svg');\n       }\n       &_watch {\n          background-color: #F03E3D;\n          background-image: url('../../imeges/for-You/watch.svg');\n"
+                }
+            ],
+            "date": 1668209006539,
+            "name": "Commit-0",
+            "content": ".for-you {\n   &__item {\n      text-align: center;\n      color: var(--color-text-black);\n   }\n   &__icon {\n      display: block;\n      margin: 0 auto;\n      width: rem(50px);\n      height: rem(50px);\n      border-radius: 19px;\n      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));\n      background-repeat: no-repeat;\n      background-position: center;\n      &:hover {\n         transform: scale(1.1);\n      }\n      &_cursor {\n         background-color: #02897A;\n         background-image: url('../../imeges/for-You/cursor.svg');\n      }\n      &_surveys {\n         background-color: #4D8DFF;\n         background-image: url('../../imeges/for-You/surveys.svg');\n      }\n      &_heart {\n         background-color: #740A76;\n         background-image: url('../../imeges/for-You/heart.svg');\n      }\n      &_watch {\n         background-color: #F03E3D;\n         background-image: url('../../imeges/for-You/watch.svg');\n      }\n   }\n   &_centered {\n      .for-you__icon_heart{\n         background-color: #F03E3D;\n      }\n   }\n   &__main {\n      font-size: rem(22px);  \n      margin-top: rem(24px);\n   }\n   &__text {\n      margin-top: rem(8px);\n   }\n   // customers \n   &_centered {\n      .for-you__item {\n         padding: 32px 28px 34px 28px;\n         text-align: center;\n         @extend .border;\n         border-radius: 10px;\n      }\n      .for-you__icon {\n         margin: auto;\n      }\n   }\n}\n.for-you_b {\n   .button {\n      t\n   }\n}\n\n\n@media screen and (min-width:992px) {\n   .for-you {\n      &__icon {\n         margin: 0;\n      }\n      &__item {\n         text-align: left;\n      }\n   }\n}\n\n"
+        }
+    ]
+}

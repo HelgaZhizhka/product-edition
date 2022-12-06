@@ -1,0 +1,146 @@
+{
+    "sourceFile": "scss/components/_info.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 32,
+            "patches": [
+                {
+                    "date": 1668536092904,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1670015829714,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,17 +10,8 @@\n       background-repeat: no-repeat;\n       background-size: contain;\n       width: rem(350px);\n       height: rem(310px);\n-      &_one {\n-         background-image: url(\"/imeges/infarmation/one.svg\");\n-      }\n-      &_two {\n-         background-image: url(\"/imeges/infarmation/two.svg\");\n-      }\n-      &_three {\n-         background-image: url(\"/imeges/infarmation/three.svg\"); \n-      }\n    }\n    &__header {\n       color: var(--color-text-black);\n    }\n"
+                },
+                {
+                    "date": 1670016829890,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,15 +4,9 @@\n       // justify-content: center;\n       // margin-bottom: rem(50px);\n       // width: 300px;\n       // height: auto;\n-   }\n-   &__img {\n-      background-repeat: no-repeat;\n-      background-size: contain;\n-      width: rem(350px);\n-      height: rem(310px);\n-   }\n+   // }\n    &__header {\n       color: var(--color-text-black);\n    }\n    &__caption {\n"
+                },
+                {
+                    "date": 1670016840635,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .info {\n-   &__picture {\n+   // &__picture {\n       // display: flex;\n       // justify-content: center;\n       // margin-bottom: rem(50px);\n       // width: 300px;\n@@ -54,19 +54,19 @@\n       }\n    }\n }\n \n-@media screen and (min-width:768px) {\n-   .info {\n-      &__picture {\n-         align-items: center;\n-         margin-bottom: 0;\n-         &_order-1 , &_order-3 {\n-            order: 1;\n-         }\n-      }\n-   }\n-}\n+// @media screen and (min-width:768px) {\n+//    .info {\n+//       &__picture {\n+//          align-items: center;\n+//          margin-bottom: 0;\n+//          &_order-1 , &_order-3 {\n+//             order: 1;\n+//          }\n+//       }\n+//    }\n+// }\n \n @media screen and (min-width:992px) {\n    .info {\n       &__picture {\n"
+                },
+                {
+                    "date": 1670016847090,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,16 +68,16 @@\n // }\n \n @media screen and (min-width:992px) {\n    .info {\n-      &__picture {\n-         justify-content: center;\n-         width: 500px;\n-         height: auto;\n-         &_order-1 , &_order-3  {\n-            justify-content: flex-end;\n-         }\n-      }\n+      // &__picture {\n+      //    justify-content: center;\n+      //    width: 500px;\n+      //    height: auto;\n+      //    &_order-1 , &_order-3  {\n+      //       justify-content: flex-end;\n+      //    }\n+      // }\n       &__img {\n          width: rem(500px);\n          &_one {\n             width: rem(475px);\n"
+                },
+                {
+                    "date": 1670016883079,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -76,22 +76,22 @@\n       //    &_order-1 , &_order-3  {\n       //       justify-content: flex-end;\n       //    }\n       // }\n-      &__img {\n-         width: rem(500px);\n-         &_one {\n-            width: rem(475px);\n-            height: rem(420px);\n-         }\n-         &_two {\n-            width: rem(540px);\n-            height: rem(450px);\n-         }\n-         &_three {\n-            height: rem(410px);\n-         }\n-      }\n+      // &__img {\n+      //    width: rem(500px);\n+      //    &_one {\n+      //       width: rem(475px);\n+      //       height: rem(420px);\n+      //    }\n+      //    &_two {\n+      //       width: rem(540px);\n+      //       height: rem(450px);\n+      //    }\n+      //    &_three {\n+      //       height: rem(410px);\n+      //    }\n+      // }\n    }\n }\n \n // customents\n"
+                },
+                {
+                    "date": 1670016892273,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -95,24 +95,24 @@\n }\n \n // customents\n .info_customers {\n-   .info__picture_order-1 , .info__picture_order-3 {\n-      justify-content: center;\n-   }\n-   .info__img {\n-      width: rem(500px);\n-      height: rem(280px);\n-      &_one {\n-         background-image: url(\"/imeges/customers/info-1.svg\");\n-      }\n-      &_two {\n-         background-image: url(\"/imeges/customers/info-2.svg\");\n-      }\n-      &_three {\n-         background-image: url(\"/imeges/customers/info-3.svg\"); \n-      }\n-   }\n+   // .info__picture_order-1 , .info__picture_order-3 {\n+   //    justify-content: center;\n+   // }\n+   // .info__img {\n+   //    width: rem(500px);\n+   //    height: rem(280px);\n+   //    &_one {\n+   //       background-image: url(\"/imeges/customers/info-1.svg\");\n+   //    }\n+   //    &_two {\n+   //       background-image: url(\"/imeges/customers/info-2.svg\");\n+   //    }\n+   //    &_three {\n+   //       background-image: url(\"/imeges/customers/info-3.svg\"); \n+   //    }\n+   // }\n    .subtitle {\n       margin-bottom: rem(16px);\n    }\n    .info__button {\n"
+                },
+                {
+                    "date": 1670016908833,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -98,21 +98,21 @@\n .info_customers {\n    // .info__picture_order-1 , .info__picture_order-3 {\n    //    justify-content: center;\n    // }\n-   // .info__img {\n-   //    width: rem(500px);\n-   //    height: rem(280px);\n-   //    &_one {\n-   //       background-image: url(\"/imeges/customers/info-1.svg\");\n-   //    }\n-   //    &_two {\n-   //       background-image: url(\"/imeges/customers/info-2.svg\");\n-   //    }\n-   //    &_three {\n-   //       background-image: url(\"/imeges/customers/info-3.svg\"); \n-   //    }\n-   // }\n+   .info__img {\n+      width: rem(500px);\n+      height: rem(280px);\n+      &_one {\n+         background-image: url(\"/imeges/customers/info-1.svg\");\n+      }\n+      &_two {\n+         background-image: url(\"/imeges/customers/info-2.svg\");\n+      }\n+      &_three {\n+         background-image: url(\"/imeges/customers/info-3.svg\"); \n+      }\n+   }\n    .subtitle {\n       margin-bottom: rem(16px);\n    }\n    .info__button {\n"
+                },
+                {
+                    "date": 1670016941479,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,9 +65,9 @@\n //          }\n //       }\n //    }\n // }\n-\n+@media screen and (min-width:992px) {}\n @media screen and (min-width:992px) {\n    .info {\n       // &__picture {\n       //    justify-content: center;\n@@ -95,11 +95,11 @@\n }\n \n // customents\n .info_customers {\n-   // .info__picture_order-1 , .info__picture_order-3 {\n-   //    justify-content: center;\n-   // }\n+   .info__picture_order-1 , .info__picture_order-3 {\n+      justify-content: center;\n+   }\n    .info__img {\n       width: rem(500px);\n       height: rem(280px);\n       &_one {\n"
+                },
+                {
+                    "date": 1670016947791,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,11 +65,13 @@\n //          }\n //       }\n //    }\n // }\n-@media screen and (min-width:992px) {}\n @media screen and (min-width:992px) {\n    .info {\n+}\n+@media screen and (min-width:992px) {\n+   .info {\n       // &__picture {\n       //    justify-content: center;\n       //    width: 500px;\n       //    height: auto;\n"
+                },
+                {
+                    "date": 1670016955111,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,10 +65,12 @@\n //          }\n //       }\n //    }\n // }\n-@media screen and (min-width:992px) {\n+@media screen and (max-width:992px) {\n    .info {\n+\n+   }\n }\n @media screen and (min-width:992px) {\n    .info {\n       // &__picture {\n"
+                },
+                {
+                    "date": 1670016961922,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,11 +65,11 @@\n //          }\n //       }\n //    }\n // }\n-@media screen and (max-width:992px) {\n+@media screen and (max-width:991px) {\n    .info {\n-\n+      \n    }\n }\n @media screen and (min-width:992px) {\n    .info {\n"
+                },
+                {
+                    "date": 1670016968431,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,9 +67,11 @@\n //    }\n // }\n @media screen and (max-width:991px) {\n    .info {\n-      \n+      &__header {\n+         \n+      }\n    }\n }\n @media screen and (min-width:992px) {\n    .info {\n"
+                },
+                {
+                    "date": 1670016975456,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,9 +68,9 @@\n // }\n @media screen and (max-width:991px) {\n    .info {\n       &__header {\n-         \n+         margin-top: rem(20px);\n       }\n    }\n }\n @media screen and (min-width:992px) {\n"
+                },
+                {
+                    "date": 1670016983325,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,9 +68,9 @@\n // }\n @media screen and (max-width:991px) {\n    .info {\n       &__header {\n-         margin-top: rem(20px);\n+         margin-top: rem(50px);\n       }\n    }\n }\n @media screen and (min-width:992px) {\n"
+                },
+                {
+                    "date": 1670017340845,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,9 +65,9 @@\n //          }\n //       }\n //    }\n // }\n-@media screen and (max-width:991px) {\n+@media screen and (max-width: 991px) {\n    .info {\n       &__header {\n          margin-top: rem(50px);\n       }\n"
+                },
+                {
+                    "date": 1670349635088,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n       // width: 300px;\n       // height: auto;\n    // }\n    &__header {\n-      color: var(--color-text-black);\n+     \n    }\n    &__caption {\n       font-weight: 600;\n       margin-bottom: rem(12px);\n@@ -65,9 +65,9 @@\n //          }\n //       }\n //    }\n // }\n-@media screen and (max-width: 991px) {\n+@media screen and (max-width: 767px) {\n    .info {\n       &__header {\n          margin-top: rem(50px);\n       }\n"
+                },
+                {
+                    "date": 1670349641370,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,11 +5,9 @@\n       // margin-bottom: rem(50px);\n       // width: 300px;\n       // height: auto;\n    // }\n-   &__header {\n-     \n-   }\n+   color: var(--color-text-black);\n    &__caption {\n       font-weight: 600;\n       margin-bottom: rem(12px);\n    }\n"
+                },
+                {
+                    "date": 1670349818026,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n       margin-bottom: rem(12px);\n    }\n    &__paragraf {\n       &_one {\n-         margin-bottom: rem(30px);\n+         \n       }\n       &_two {\n          margin-bottom: rem(25px);\n       }\n"
+                },
+                {
+                    "date": 1670350032736,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,27 +11,17 @@\n       font-weight: 600;\n       margin-bottom: rem(12px);\n    }\n    &__paragraf {\n-      &_one {\n-         \n-      }\n-      &_two {\n-         margin-bottom: rem(25px);\n-      }\n-      &_three {\n-\n-      }\n+      margin-bottom: rem(30px);\n    }\n    //castom two block\n    &__item {\n       display: flex;\n       align-items: center;\n       margin-bottom: rem(30px);\n    }\n    &__tick {\n-      display: flex;\n-      flex: 0 0 auto;\n       width: rem(35px);\n       height: rem(35px);\n       border-radius: rem(14px);\n       margin-right: rem(30px);\n"
+                },
+                {
+                    "date": 1670350038009,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,8 +25,9 @@\n       height: rem(35px);\n       border-radius: rem(14px);\n       margin-right: rem(30px);\n       position: relative;\n+      bac\n       img {\n          margin: auto;\n          width: 16px;\n          height: 12px;\n"
+                },
+                {
+                    "date": 1670350044620,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n       height: rem(35px);\n       border-radius: rem(14px);\n       margin-right: rem(30px);\n       position: relative;\n-      bac\n+      backg\n       img {\n          margin: auto;\n          width: 16px;\n          height: 12px;\n"
+                },
+                {
+                    "date": 1670350053003,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n       height: rem(35px);\n       border-radius: rem(14px);\n       margin-right: rem(30px);\n       position: relative;\n-      backg\n+      background: url(/imeges/infarmation/Path.svg);\n       img {\n          margin: auto;\n          width: 16px;\n          height: 12px;\n"
+                },
+                {
+                    "date": 1670350061700,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n       height: rem(35px);\n       border-radius: rem(14px);\n       margin-right: rem(30px);\n       position: relative;\n-      background: url(/imeges/infarmation/Path.svg);\n+      background: url(../../imeges/infarmation/Path.svg) no;\n       img {\n          margin: auto;\n          width: 16px;\n          height: 12px;\n"
+                },
+                {
+                    "date": 1670350069223,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,14 +25,9 @@\n       height: rem(35px);\n       border-radius: rem(14px);\n       margin-right: rem(30px);\n       position: relative;\n-      background: url(../../imeges/infarmation/Path.svg) no;\n-      img {\n-         margin: auto;\n-         width: 16px;\n-         height: 12px;\n-      }\n+      background: url(../../imeges/infarmation/Path.svg) no-repeat center;\n       &_yellow {\n          background-color: #FF9900;\n       }\n       &_red {\n"
+                },
+                {
+                    "date": 1670350083075,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,15 +49,15 @@\n //          }\n //       }\n //    }\n // }\n-@media screen and (max-width: 767px) {\n-   .info {\n-      &__header {\n-         margin-top: rem(50px);\n-      }\n-   }\n-}\n+// @media screen and (max-width: 767px) {\n+//    .info {\n+//       &__header {\n+//          margin-top: rem(50px);\n+//       }\n+//    }\n+// }\n @media screen and (min-width:992px) {\n    .info {\n       // &__picture {\n       //    justify-content: center;\n"
+                },
+                {
+                    "date": 1670350129214,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,8 +36,11 @@\n       &_blue {\n          background-color: #4D8DFF;\n       }\n    }\n+   &__text {\n+      flex: 1\n+   }\n }\n \n // @media screen and (min-width:768px) {\n //    .info {\n"
+                },
+                {
+                    "date": 1670360454666,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n       height: rem(35px);\n       border-radius: rem(14px);\n       margin-right: rem(30px);\n       position: relative;\n-      background: url(../../imeges/infarmation/Path.svg) no-repeat center;\n+      background: url(../../images/infarmation/Path.svg) no-repeat center;\n       &_yellow {\n          background-color: #FF9900;\n       }\n       &_red {\n"
+                },
+                {
+                    "date": 1670360460858,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n       height: rem(35px);\n       border-radius: rem(14px);\n       margin-right: rem(30px);\n       position: relative;\n-      background: url(../../images/infarmation/Path.svg) no-repeat center;\n+      background: url(../images/infarmation/Path.svg) no-repeat center;\n       &_yellow {\n          background-color: #FF9900;\n       }\n       &_red {\n@@ -95,9 +95,9 @@\n    .info__img {\n       width: rem(500px);\n       height: rem(280px);\n       &_one {\n-         background-image: url(\"/imeges/customers/info-1.svg\");\n+         background-image: url(\"../imeges/customers/info-1.svg\");\n       }\n       &_two {\n          background-image: url(\"/imeges/customers/info-2.svg\");\n       }\n"
+                },
+                {
+                    "date": 1670360468562,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -95,15 +95,15 @@\n    .info__img {\n       width: rem(500px);\n       height: rem(280px);\n       &_one {\n-         background-image: url(\"../imeges/customers/info-1.svg\");\n+         background-image: url(\"../images/customers/info-1.svg\");\n       }\n       &_two {\n-         background-image: url(\"/imeges/customers/info-2.svg\");\n+         background-image: url(\"../images/customers/info-2.svg\");\n       }\n       &_three {\n-         background-image: url(\"/imeges/customers/info-3.svg\"); \n+         background-image: url(\"../imeges/customers/info-3.svg\"); \n       }\n    }\n    .subtitle {\n       margin-bottom: rem(16px);\n"
+                },
+                {
+                    "date": 1670360475245,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -101,9 +101,9 @@\n       &_two {\n          background-image: url(\"../images/customers/info-2.svg\");\n       }\n       &_three {\n-         background-image: url(\"../imeges/customers/info-3.svg\"); \n+         background-image: url(\"../images/customers/info-3.svg\"); \n       }\n    }\n    .subtitle {\n       margin-bottom: rem(16px);\n@@ -149,9 +149,9 @@\n    .info__img {\n       width: rem(352px);\n       height: rem(288px);\n       &_two {\n-         background-image: url(\"/imeges/pricing/pipke_xs.svg\");\n+         background-image: url(\"../images/pricing/pipke_xs.svg\");\n       }\n    }\n    .info__tick {\n       background-color: #F4F5F7;\n"
+                },
+                {
+                    "date": 1670360481329,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -179,9 +179,9 @@\n       .info__img {\n          width: rem(530px);\n          height: rem(400px);\n          &_two {\n-            background-image: url(\"/imeges/pricing/amico.svg\");\n+            background-image: url(\"../imeges/pricing/amico.svg\");\n          }\n       }\n    }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670360656951,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,5 @@\n .info {\n-   // &__picture {\n-      // display: flex;\n-      // justify-content: center;\n-      // margin-bottom: rem(50px);\n-      // width: 300px;\n-      // height: auto;\n-   // }\n    color: var(--color-text-black);\n    &__caption {\n       font-weight: 600;\n       margin-bottom: rem(12px);\n@@ -179,9 +172,9 @@\n       .info__img {\n          width: rem(530px);\n          height: rem(400px);\n          &_two {\n-            background-image: url(\"../imeges/pricing/amico.svg\");\n+            background-image: url(\"../images/pricing/amico.svg\");\n          }\n       }\n    }\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1668536092904,
+            "name": "Commit-0",
+            "content": ".info {\n   &__picture {\n      // display: flex;\n      // justify-content: center;\n      // margin-bottom: rem(50px);\n      // width: 300px;\n      // height: auto;\n   }\n   &__img {\n      background-repeat: no-repeat;\n      background-size: contain;\n      width: rem(350px);\n      height: rem(310px);\n      &_one {\n         background-image: url(\"/imeges/infarmation/one.svg\");\n      }\n      &_two {\n         background-image: url(\"/imeges/infarmation/two.svg\");\n      }\n      &_three {\n         background-image: url(\"/imeges/infarmation/three.svg\"); \n      }\n   }\n   &__header {\n      color: var(--color-text-black);\n   }\n   &__caption {\n      font-weight: 600;\n      margin-bottom: rem(12px);\n   }\n   &__paragraf {\n      &_one {\n         margin-bottom: rem(30px);\n      }\n      &_two {\n         margin-bottom: rem(25px);\n      }\n      &_three {\n\n      }\n   }\n   //castom two block\n   &__item {\n      display: flex;\n      align-items: center;\n      margin-bottom: rem(30px);\n   }\n   &__tick {\n      display: flex;\n      flex: 0 0 auto;\n      width: rem(35px);\n      height: rem(35px);\n      border-radius: rem(14px);\n      margin-right: rem(30px);\n      position: relative;\n      img {\n         margin: auto;\n         width: 16px;\n         height: 12px;\n      }\n      &_yellow {\n         background-color: #FF9900;\n      }\n      &_red {\n         background-color: #F03E3D;\n      }\n      &_blue {\n         background-color: #4D8DFF;\n      }\n   }\n}\n\n@media screen and (min-width:768px) {\n   .info {\n      &__picture {\n         align-items: center;\n         margin-bottom: 0;\n         &_order-1 , &_order-3 {\n            order: 1;\n         }\n      }\n   }\n}\n\n@media screen and (min-width:992px) {\n   .info {\n      &__picture {\n         justify-content: center;\n         width: 500px;\n         height: auto;\n         &_order-1 , &_order-3  {\n            justify-content: flex-end;\n         }\n      }\n      &__img {\n         width: rem(500px);\n         &_one {\n            width: rem(475px);\n            height: rem(420px);\n         }\n         &_two {\n            width: rem(540px);\n            height: rem(450px);\n         }\n         &_three {\n            height: rem(410px);\n         }\n      }\n   }\n}\n\n// customents\n.info_customers {\n   .info__picture_order-1 , .info__picture_order-3 {\n      justify-content: center;\n   }\n   .info__img {\n      width: rem(500px);\n      height: rem(280px);\n      &_one {\n         background-image: url(\"/imeges/customers/info-1.svg\");\n      }\n      &_two {\n         background-image: url(\"/imeges/customers/info-2.svg\");\n      }\n      &_three {\n         background-image: url(\"/imeges/customers/info-3.svg\"); \n      }\n   }\n   .subtitle {\n      margin-bottom: rem(16px);\n   }\n   .info__button {\n      display: flex;\n      justify-content: center;\n   }\n   .button {\n      padding: rem(11px) rem(18px);\n      font-weight: 600;\n      font-size: rem(18px);\n      margin-top: rem(75px);\n      margin-left: auto;\n      margin-right: auto;\n   }\n}\n\n@media screen and (min-width:768px) {\n   .info_customers {\n      .info__picture_order-1 , .info__picture_order-3 {\n         order: 0;\n      }\n      .info__picture_order-2 {\n         order: 1;\n      }\n   }\n}\n\n@media screen and (min-width:992px) {\n   .info_customers {\n      .info__picture_order-1 , .info__picture_order-3 {\n         justify-content: flex-start;\n      }\n   }\n}\n\n// Pricing\n.info_pricing {\n   .title {\n      font-weight: 600;\n   }\n   .info__img {\n      width: rem(352px);\n      height: rem(288px);\n      &_two {\n         background-image: url(\"/imeges/pricing/pipke_xs.svg\");\n      }\n   }\n   .info__tick {\n      background-color: #F4F5F7;\n      width: rem(50px);\n      height: rem(50px);\n      border-radius: 50%;\n      margin-right: rem(15px);\n      img {\n         width: 24px;\n         height: 24px;\n      }\n   }\n   .info__item {\n      display: flex;\n      align-items: center;\n      margin-bottom: rem(16px);\n   }\n   .info__text:not(:last-child) {\n      margin-bottom: rem(32px);\n   }\n}\n\n@media screen and (min-width:768px) {\n   .info_pricing {\n      .info__img {\n         width: rem(530px);\n         height: rem(400px);\n         &_two {\n            background-image: url(\"/imeges/pricing/amico.svg\");\n         }\n      }\n   }\n}"
+        }
+    ]
+}

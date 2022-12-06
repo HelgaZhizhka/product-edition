@@ -1,0 +1,49 @@
+.footer {
+  color: var(--color-text-black);
+  .logo {
+    margin-bottom: rem(25px);
+  }
+  .menu {
+    margin: 0 0 rem(32px);
+    li {
+      margin-bottom: rem(16px);
+    }
+    &__link {
+      color: var(--color-text-black);
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  &__title {
+    font-weight: 500;
+    font-size: rem(20px);
+    margin-bottom: rem(18px);
+  }
+  &__copyright {
+    text-align: center;
+    margin-top: rem(45px);
+    margin-bottom: rem(45px);
+  }
+  .input {
+    display: block;
+    width: 100%;
+    margin-bottom: rem(20px);
+  }
+  .social {
+    margin-bottom: rem(30px);
+  }
+}
+@media screen and (max-width: 991px) {
+  .footer {
+    .logo,
+    .social {
+      justify-content: center;
+    }
+  }
+}
+@media screen and (max-width: 787px) {
+  .footer {
+    text-align: center;
+  }
+}

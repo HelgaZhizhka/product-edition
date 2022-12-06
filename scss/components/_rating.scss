@@ -1,0 +1,17 @@
+.rating {
+   display: flex;
+   align-items: center;
+   &__star {
+      display: block;
+      width: rem(18px);
+      height: rem(18px);
+      background-repeat: no-repeat;
+      margin-right: 5px;
+      &_empty {
+         background-image: url(../images/star-empty.svg);
+      }
+      &_full {
+         background-image: url(../images/star.svg);
+      }
+   }
+}

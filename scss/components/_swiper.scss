@@ -1,0 +1,23 @@
+.swiper-container {
+   overflow-x: hidden;
+   .swiper-pagination-bullet{
+      width: rem(16px);
+      height: rem(16px);
+      font-size: rem(14px);
+      background-color: var(--color-text-dark);
+   }
+   .swiper-pagination-bullet-active {
+      background-color: var(--color-green);
+   }
+}
+
+//буллет по центру 
+.swiper-paginations.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+   text-align: center;
+   padding-top: rem(65px);
+
+}
+
+.swiper-lazy-preloader {
+   top: rem(45px) !important;
+}

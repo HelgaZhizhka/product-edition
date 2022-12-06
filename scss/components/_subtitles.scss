@@ -1,0 +1,18 @@
+.subtitle {
+   font-weight: 500;
+   color: var(--color-text-black);
+   &_xxs {
+      font-size: rem(20px);
+   }
+   &_small {
+      font-size: rem(18px);
+   }
+}
+
+@media screen and (max-width:992px) {
+   .subtitle {
+      .is-block {
+         display: inline;
+      }
+   }
+}

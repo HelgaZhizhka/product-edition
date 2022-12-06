@@ -1,0 +1,178 @@
+{
+    "sourceFile": "scss/components/_button.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 40,
+            "patches": [
+                {
+                    "date": 1667674649684,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1667674655035,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n    color: var(--color-white);\n    border: none;\n    border-radius: rem(4px);\n    // transition: all .6s;\n+   tra\n    &:hover {\n       background-color: var(--color-hover);\n    }\n    &_center {\n"
+                },
+                {
+                    "date": 1667674667448,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n    color: var(--color-white);\n    border: none;\n    border-radius: rem(4px);\n    // transition: all .6s;\n-   tra\n+   transition: background-color .6s;\n    &:hover {\n       background-color: var(--color-hover);\n    }\n    &_center {\n"
+                },
+                {
+                    "date": 1667674676147,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,9 @@\n    // transition: all .6s;\n    transition: background-color .6s;\n    &:hover {\n       background-color: var(--color-hover);\n+      cursor: text;\n    }\n    &_center {\n       display: block;\n       margin: 0 auto;\n"
+                },
+                {
+                    "date": 1667681816133,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,11 +7,11 @@\n    // transition: all .6s;\n    transition: background-color .6s;\n    &:hover {\n       background-color: var(--color-hover);\n-      cursor: text;\n+      cursor: pointer;\n    }\n-   &_center {\n-      display: block;\n-      margin: 0 auto;\n-   }\n+   // &_center {\n+   //    display: block;\n+   //    margin: 0 auto;\n+   // }\n }\n"
+                },
+                {
+                    "date": 1667681824296,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,9 @@\n    &:hover {\n       background-color: var(--color-hover);\n       cursor: pointer;\n    }\n+   &_\n    // &_center {\n    //    display: block;\n    //    margin: 0 auto;\n    // }\n"
+                },
+                {
+                    "date": 1667681832662,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,12 @@\n    &:hover {\n       background-color: var(--color-hover);\n       cursor: pointer;\n    }\n-   &_\n+   &_sm {\n+      height: 53px;\n+      padding: 0 ;\n+   }\n    // &_center {\n    //    display: block;\n    //    margin: 0 auto;\n    // }\n"
+                },
+                {
+                    "date": 1667681838470,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,10 @@\n       cursor: pointer;\n    }\n    &_sm {\n       height: 53px;\n-      padding: 0 ;\n+      padding: 0 30px;\n+      line-height: ;\n    }\n    // &_center {\n    //    display: block;\n    //    margin: 0 auto;\n"
+                },
+                {
+                    "date": 1667681919730,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,10 +12,11 @@\n    }\n    &_sm {\n       height: 53px;\n       padding: 0 30px;\n-      line-height: ;\n+      line-height: 52px;\n    }\n+   ^\n    // &_center {\n    //    display: block;\n    //    margin: 0 auto;\n    // }\n"
+                },
+                {
+                    "date": 1667681924854,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n       height: 53px;\n       padding: 0 30px;\n       line-height: 52px;\n    }\n-   ^\n+   &_\n    // &_center {\n    //    display: block;\n    //    margin: 0 auto;\n    // }\n"
+                },
+                {
+                    "date": 1667681932781,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n       height: 53px;\n       padding: 0 30px;\n       line-height: 52px;\n    }\n-   &_\n+   &_border\n    // &_center {\n    //    display: block;\n    //    margin: 0 auto;\n    // }\n"
+                },
+                {
+                    "date": 1667681939974,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,12 @@\n       height: 53px;\n       padding: 0 30px;\n       line-height: 52px;\n    }\n-   &_border\n+   &_bordered {\n+      border: 1px solid #BCD0E5;\n+      ba\n+   }\n    // &_center {\n    //    display: block;\n    //    margin: 0 auto;\n    // }\n"
+                },
+                {
+                    "date": 1667681955638,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,11 @@\n       line-height: 52px;\n    }\n    &_bordered {\n       border: 1px solid #BCD0E5;\n-      ba\n+      background: none;\n+      color: #173A56;\n+\n    }\n    // &_center {\n    //    display: block;\n    //    margin: 0 auto;\n"
+                },
+                {
+                    "date": 1667681964632,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .button {\n    background-color: var(--color-green);\n-   font-weight: 700;\n+   font-weight: 600;\n    color: var(--color-white);\n    border: none;\n    border-radius: rem(4px);\n    // transition: all .6s;\n"
+                },
+                {
+                    "date": 1667681981399,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,8 @@\n    &_bordered {\n       border: 1px solid #BCD0E5;\n       background: none;\n       color: #173A56;\n-\n    }\n    // &_center {\n    //    display: block;\n    //    margin: 0 auto;\n"
+                },
+                {
+                    "date": 1667682025235,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n .button {\n+   di\n    background-color: var(--color-green);\n    font-weight: 600;\n    color: var(--color-white);\n    border: none;\n"
+                },
+                {
+                    "date": 1667682030663,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .button {\n-   di\n+   display: inline-block;\n    background-color: var(--color-green);\n    font-weight: 600;\n    color: var(--color-white);\n    border: none;\n"
+                },
+                {
+                    "date": 1667682430531,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,13 @@\n    &_bordered {\n       border: 1px solid #BCD0E5;\n       background: none;\n       color: #173A56;\n+       &:hover {\n+      background-color: var(--color-hover);\n+      cursor: pointer;\n    }\n+   }\n    // &_center {\n    //    display: block;\n    //    margin: 0 auto;\n    // }\n"
+                },
+                {
+                    "date": 1667682438474,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,12 +20,12 @@\n       border: 1px solid #BCD0E5;\n       background: none;\n       color: #173A56;\n        &:hover {\n-      background-color: var(--color-hover);\n-      cursor: pointer;\n+         background-color: var(--color-hover);\n+         color: #173A56;\n+      }\n    }\n-   }\n    // &_center {\n    //    display: block;\n    //    margin: 0 auto;\n    // }\n"
+                },
+                {
+                    "date": 1667682443823,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n       background: none;\n       color: #173A56;\n        &:hover {\n          background-color: var(--color-hover);\n-         color: #173A56;\n+         color: wh;\n       }\n    }\n    // &_center {\n    //    display: block;\n"
+                },
+                {
+                    "date": 1668096515522,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,15 +15,16 @@\n       height: 53px;\n       padding: 0 30px;\n       line-height: 52px;\n    }\n+   \n    &_bordered {\n       border: 1px solid #BCD0E5;\n       background: none;\n       color: #173A56;\n        &:hover {\n          background-color: var(--color-hover);\n-         color: wh;\n+         color: white;\n       }\n    }\n    // &_center {\n    //    display: block;\n"
+                },
+                {
+                    "date": 1668096522903,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,13 @@\n       height: 53px;\n       padding: 0 30px;\n       line-height: 52px;\n    }\n-   \n+   &_xs {\n+      height: 43px;\n+      padding: 0 30px;\n+      line-height: 52px;\n+   }\n    &_bordered {\n       border: 1px solid #BCD0E5;\n       background: none;\n       color: #173A56;\n"
+                },
+                {
+                    "date": 1668208555642,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n    }\n    &_xs {\n       height: 43px;\n       padding: 0 30px;\n-      line-height: 52px;\n+      line-height: 42px;\n    }\n    &_bordered {\n       border: 1px solid #BCD0E5;\n       background: none;\n@@ -29,8 +29,9 @@\n          background-color: var(--color-hover);\n          color: white;\n       }\n    }\n+   ^_\n    // &_center {\n    //    display: block;\n    //    margin: 0 auto;\n    // }\n"
+                },
+                {
+                    "date": 1668208561196,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,11 @@\n          background-color: var(--color-hover);\n          color: white;\n       }\n    }\n-   ^_\n+   &_light {\n+      \n+   }\n    // &_center {\n    //    display: block;\n    //    margin: 0 auto;\n    // }\n"
+                },
+                {
+                    "date": 1668208572556,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,11 +29,14 @@\n          background-color: var(--color-hover);\n          color: white;\n       }\n    }\n-   &_light {\n+   &_primary {\n       \n    }\n+   &_light {\n+\n+   }\n    // &_center {\n    //    display: block;\n    //    margin: 0 auto;\n    // }\n"
+                },
+                {
+                    "date": 1668208578385,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,11 @@\n          color: white;\n       }\n    }\n    &_primary {\n-      \n+      background-color: var(--color-green);\n+   font-weight: 600;\n+   color: var(--color-white);\n    }\n    &_light {\n \n    }\n"
+                },
+                {
+                    "date": 1668208584844,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,6 @@\n .button {\n    display: inline-block;\n-   background-color: var(--color-green);\n    font-weight: 600;\n    color: var(--color-white);\n    border: none;\n    border-radius: rem(4px);\n@@ -31,10 +30,9 @@\n       }\n    }\n    &_primary {\n       background-color: var(--color-green);\n-   font-weight: 600;\n-   color: var(--color-white);\n+      color: var(--color-white);\n    }\n    &_light {\n \n    }\n"
+                },
+                {
+                    "date": 1668208590423,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,16 +1,11 @@\n .button {\n    display: inline-block;\n    font-weight: 600;\n-   color: var(--color-white);\n    border: none;\n    border-radius: rem(4px);\n-   // transition: all .6s;\n    transition: background-color .6s;\n-   &:hover {\n-      background-color: var(--color-hover);\n-      cursor: pointer;\n-   }\n+   \n    &_sm {\n       height: 53px;\n       padding: 0 30px;\n       line-height: 52px;\n"
+                },
+                {
+                    "date": 1668208596215,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,8 @@\n    font-weight: 600;\n    border: none;\n    border-radius: rem(4px);\n    transition: background-color .6s;\n-   \n    &_sm {\n       height: 53px;\n       padding: 0 30px;\n       line-height: 52px;\n@@ -26,9 +25,13 @@\n    }\n    &_primary {\n       background-color: var(--color-green);\n       color: var(--color-white);\n+      &:hover {\n+      background-color: var(--color-hover);\n+      cursor: pointer;\n    }\n+   }\n    &_light {\n \n    }\n    // &_center {\n"
+                },
+                {
+                    "date": 1668208601441,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,12 +26,11 @@\n    &_primary {\n       background-color: var(--color-green);\n       color: var(--color-white);\n       &:hover {\n-      background-color: var(--color-hover);\n-      cursor: pointer;\n+         background-color: var(--color-hover);\n+      }\n    }\n-   }\n    &_light {\n \n    }\n    // &_center {\n"
+                },
+                {
+                    "date": 1668208612091,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,11 @@\n    font-weight: 600;\n    border: none;\n    border-radius: rem(4px);\n    transition: background-color .6s;\n+   &:focus {\n+      oul\n+   }\n    &_sm {\n       height: 53px;\n       padding: 0 30px;\n       line-height: 52px;\n"
+                },
+                {
+                    "date": 1668208626727,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,10 +4,13 @@\n    border: none;\n    border-radius: rem(4px);\n    transition: background-color .6s;\n    &:focus {\n-      oul\n+      outline: 0;\n    }\n+   &:hover {\n+      cursor: pointer;\n+   }\n    &_sm {\n       height: 53px;\n       padding: 0 30px;\n       line-height: 52px;\n"
+                },
+                {
+                    "date": 1668208631787,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,13 @@\n          background-color: var(--color-hover);\n       }\n    }\n    &_light {\n-\n+background-color: var(--color-green);\n+      color: var(--color-white);\n+      &:hover {\n+         background-color: var(--color-hover);\n+      }\n    }\n    // &_center {\n    //    display: block;\n    //    margin: 0 auto;\n"
+                },
+                {
+                    "date": 1668208657466,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,13 +36,13 @@\n          background-color: var(--color-hover);\n       }\n    }\n    &_light {\n-background-color: var(--color-green);\n-      color: var(--color-white);\n+      ackground-color: var(--color-white);\n+    color: var(--color-green);\n       &:hover {\n          background-color: var(--color-hover);\n-      }\n+      }  \n    }\n    // &_center {\n    //    display: block;\n    //    margin: 0 auto;\n"
+                },
+                {
+                    "date": 1668208672001,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,12 +36,12 @@\n          background-color: var(--color-hover);\n       }\n    }\n    &_light {\n-      ackground-color: var(--color-white);\n-    color: var(--color-green);\n+      background-color: var(--color-white);\n+      color: var(--color-green);\n       &:hover {\n-         background-color: var(--color-hover);\n+             background-color: #fff;\n       }  \n    }\n    // &_center {\n    //    display: block;\n"
+                },
+                {
+                    "date": 1668208678166,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n    &_light {\n       background-color: var(--color-white);\n       color: var(--color-green);\n       &:hover {\n-             background-color: #fff;\n+         background-color: #fff;\n       }  \n    }\n    // &_center {\n    //    display: block;\n"
+                },
+                {
+                    "date": 1668208688937,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n    display: inline-block;\n    font-weight: 600;\n    border: none;\n    border-radius: rem(4px);\n-   transition: background-color .6s;\n+   transition: background-color .6s ease;\n    &:focus {\n       outline: 0;\n    }\n    &:hover {\n@@ -40,8 +40,9 @@\n       background-color: var(--color-white);\n       color: var(--color-green);\n       &:hover {\n          background-color: #fff;\n+         box-shadow: 0px 2px 0 #30444e, 2px 4px 6px #30444e;\n       }  \n    }\n    // &_center {\n    //    display: block;\n"
+                },
+                {
+                    "date": 1668208735680,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n    display: inline-block;\n    font-weight: 600;\n    border: none;\n    border-radius: rem(4px);\n-   transition: background-color .6s ease;\n+   transition: background-color .6s ease-;\n    &:focus {\n       outline: 0;\n    }\n    &:hover {\n"
+                },
+                {
+                    "date": 1668208752599,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n    display: inline-block;\n    font-weight: 600;\n    border: none;\n    border-radius: rem(4px);\n-   transition: background-color .6s ease-;\n+   transition: background-color .6s ease-out;\n    &:focus {\n       outline: 0;\n    }\n    &:hover {\n@@ -43,9 +43,5 @@\n          background-color: #fff;\n          box-shadow: 0px 2px 0 #30444e, 2px 4px 6px #30444e;\n       }  \n    }\n-   // &_center {\n-   //    display: block;\n-   //    margin: 0 auto;\n-   // }\n }\n"
+                },
+                {
+                    "date": 1668208777828,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n       line-height: 52px;\n    }\n    &_xs {\n       height: 43px;\n-      padding: 0 30px;\n+      padding: 0 25px;\n       line-height: 42px;\n    }\n    &_bordered {\n       border: 1px solid #BCD0E5;\n"
+                },
+                {
+                    "date": 1670358452182,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n    }\n    &_bordered {\n       border: 1px solid #BCD0E5;\n       background: none;\n-      color: #173A56;\n+      color: var(--color-logo);\n        &:hover {\n          background-color: var(--color-hover);\n          color: white;\n       }\n"
+                }
+            ],
+            "date": 1667674649684,
+            "name": "Commit-0",
+            "content": ".button {\n   background-color: var(--color-green);\n   font-weight: 700;\n   color: var(--color-white);\n   border: none;\n   border-radius: rem(4px);\n   // transition: all .6s;\n   &:hover {\n      background-color: var(--color-hover);\n   }\n   &_center {\n      display: block;\n      margin: 0 auto;\n   }\n}\n"
+        }
+    ]
+}

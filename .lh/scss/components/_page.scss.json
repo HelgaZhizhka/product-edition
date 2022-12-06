@@ -1,0 +1,30 @@
+{
+    "sourceFile": "scss/components/_page.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1668534022544,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1668534039991,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .page {\n-   padding-top: rem(100px); //header + indent\n+   padding-top: rem(70px); //header + indent\n }\n \n @media screen and (min-width:992px) {\n    .page {\n-      padding-top: rem(1px); //header + indent\n+      padding-top: rem(80px); //header + indent\n    }\n }\n"
+                },
+                {
+                    "date": 1668534046502,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,8 @@\n .page {\n-   padding-top: rem(70px); //header + indent\n+   padding-top: rem(70px); //height header \n }\n \n @media screen and (min-width:992px) {\n    .page {\n-      padding-top: rem(80px); //header + indent\n-   }\n+      padding-top: rem(80px); //header \n }\n"
+                },
+                {
+                    "date": 1668534065872,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,6 @@\n }\n \n @media screen and (min-width:992px) {\n    .page {\n-      padding-top: rem(80px); //header \n-}\n+      padding-top: rem(80px); //height header \n+}\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1668534022544,
+            "name": "Commit-0",
+            "content": ".page {\n   padding-top: rem(100px); //header + indent\n}\n\n@media screen and (min-width:992px) {\n   .page {\n      padding-top: rem(1px); //header + indent\n   }\n}\n"
+        }
+    ]
+}
