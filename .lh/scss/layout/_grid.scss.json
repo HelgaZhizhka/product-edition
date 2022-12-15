@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 5,
+            "activePatchIndex": 7,
             "patches": [
                 {
                     "date": 1670017401233,
@@ -28,6 +28,14 @@
                 {
                     "date": 1670017466275,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -94,8 +94,4 @@\n    }\n    \n  }\n  \n-[class*=\"order-\"] > img {\n-  display: block;\n-  margin: 0 0 0 auto;\n- }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670431692054,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n    margin-right: calc($gutter / -2) * 1px;\n    margin-left: calc($gutter / -2) * 1px;\n  }\n  .row > .col, .row > [class*=\"col-\"] {\n-   width: 100%;\n+  \n    min-height: 1px;\n    padding-right: calc($gutter / 2) * 1px;\n    padding-left: calc($gutter / 2) * 1px;\n  }\n@@ -92,6 +92,5 @@\n        }\n      }\n    }\n    \n- }\n- \n+ }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1670431770011,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n    margin-right: calc($gutter / -2) * 1px;\n    margin-left: calc($gutter / -2) * 1px;\n  }\n  .row > .col, .row > [class*=\"col-\"] {\n-  \n+   width: 100%;\n    min-height: 1px;\n    padding-right: calc($gutter / 2) * 1px;\n    padding-left: calc($gutter / 2) * 1px;\n  }\n"
                 }
             ],
             "date": 1670017401233,

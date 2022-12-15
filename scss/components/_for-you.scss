@@ -54,10 +54,10 @@
    }
 }
 
-@media screen and (min-width:992px) {
-   .for-you {
+@media screen and (min-width: 992px) {
+   .for-you:not(.for-you_centered) {
       text-align: left;
-      &__icon {
+      .for-you__icon {
          margin: 0;
       }
    }

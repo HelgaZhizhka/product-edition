@@ -27,6 +27,12 @@
          margin-bottom: rem(24px);
       }
    }
+   &_info, &_content {
+      img {
+         display: block;
+         margin: auto;
+      }
+   }
    &_for-you {
       &.section_bg {
          padding-top: rem(24px);
@@ -42,7 +48,7 @@
          margin: auto;
       }
    }
-    &_process {
+   &_process {
       .button_primary {
          margin-top: rem(50px);
       }
@@ -101,10 +107,7 @@
    &_map {
       padding-bottom: rem(50px);
    }
-   [class*="order-"] > img {
-      display: block;
-      margin: 0 0 0 auto;
-   }
+   
 }
 
 [data-theme="light"] {
@@ -163,6 +166,14 @@
          .title {
             text-align: left;
          }
+      }
+      &_info {
+         img {
+            margin: 0;
+         }
+      }
+      [class*="order-"] > img {
+         margin: 0 0 0 auto;
       }
    }
 }

@@ -2,10 +2,16 @@
   color: var(--color-text-black);
   .logo {
     margin-bottom: rem(25px);
+    &__text {
+      font-size: 1.5rem;
+    }
+    &__img {
+      height: 30px;
+    }
   }
   .menu {
     margin: 0 0 rem(32px);
-    li {
+    &__item {
       margin-bottom: rem(16px);
     }
     &__link {

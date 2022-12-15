@@ -7,12 +7,12 @@ popupButtons.forEach((button) => {
     e.preventDefault()
     let modal = e.currentTarget.dataset.modal
     document.getElementById(modal).classList.add('active')
-    document.documentElement.style.overflow = 'hidden'
+    document.documentElement.classList.add('noscroll')
   })
 })
 function closePopup(id) {
    document.getElementById(id).classList.remove('active')
-   document.documentElement.style = ''
+   document.documentElement.classList.remove('noscroll')
 }
 popupBg.forEach((bg) => {
    bg.addEventListener('click', (event) => {
